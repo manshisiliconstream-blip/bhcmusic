@@ -20,7 +20,7 @@ public class BaseTest {
     public static ExtentReports extent;   // added
 
     @BeforeSuite
-    public void startReport() {           // added
+    public void startReport() {}           // added
         extent = ExtentManager.getInstance();
     }
 
