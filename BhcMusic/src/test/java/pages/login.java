@@ -51,6 +51,7 @@ public class login {
         wait.until(ExpectedConditions.elementToBeClickable(
                 AppiumBy.xpath("//android.widget.Button[@content-desc='LOGIN']")
         )).click();
+        // Clicked Login button
 
      // Wait for Home screen
         wait.until(ExpectedConditions.presenceOfElementLocated(
