@@ -27,7 +27,7 @@ public class onboarding {
                 AppiumBy.accessibilityId("Go with Login/Signup")
         )).click();
 
-        System.out.println("Clicked Login/Signup");
+        System.out.println("Click on the Login/Signup");
     }
 
     // Handle Notification Permission Popup
