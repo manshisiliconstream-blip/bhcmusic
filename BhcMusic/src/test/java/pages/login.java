@@ -28,7 +28,7 @@ public class login {
                 AppiumBy.accessibilityId("Continue With Email")
         )).click();
 
-        System.out.println("Clicked Continue With Email");
+        System.out.println("Clicked Continue With your email address");
 
      // Enter Email
         WebElement emailField = wait.until(
