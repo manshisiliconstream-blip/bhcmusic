@@ -17,7 +17,11 @@ public class LoginTest extends BaseTest {
         ExtentTest test = extent.createTest("Login Test");
 
         try {
-            test.info("App was launched successfully");
+<<<<<<< HEAD
+            
+=======
+            test.info("Now, App is launched successfully");
+>>>>>>> 1408849cfac6a754351ec4178c64463d2ae1f465
 
             onboarding onboard = new onboarding(driver);
             onboard.clickLoginSignup();
